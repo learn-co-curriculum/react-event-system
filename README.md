@@ -10,7 +10,7 @@ In this lesson, we'll cover the event system in React.
 4. Add event handlers to an element
 
 ## What's the event system in React?
-React has its own event system with special event handlers called `SyntheticEvent`. The reason for having a specific event system instead of using native events is cross-browser compatibility. Some browsers treat events differently, and by wrapping these events into a consistent API, React makes our lives a lot easier. It's important to keep in mind that they are the  _exact same events_, just implemented in a consistent way! That means these events also have methods like `preventDefault()`, `stopPropagation()`, and so on.
+React has its own event system with special event handlers called `SyntheticEvent`. The reason for having a specific event system instead of using native events is cross-browser compatibility. Some browsers treat events differently, and by wrapping these events into a consistent API, React makes our lives a lot easier. It's important to keep in mind that they are the  _exact same events_, just implemented in a consistent way! That means these events also have methods that you can call like `preventDefault()`, `stopPropagation()`, and so on.
 
 ## How to add event handlers
 Consider the following component:
